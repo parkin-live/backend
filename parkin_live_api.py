@@ -1,6 +1,7 @@
 import json
 import datetime
 import base64
+import os
 from botocore.vendored import requests
 
 USERNAME = os.environ['USERNAME']
